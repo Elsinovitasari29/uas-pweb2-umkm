@@ -88,76 +88,82 @@
     </section>
 
     <!-- Products Section -->
-    <section id="products" class="page-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="{{ asset('design/assets/img/batik.jpg') }}" class="card-img-top" alt="Produk 1">
-                        <div class="card-body">
-                           <h5 class="card-title">Batik Semar</h5>
-                            <p class="card-text">Khas Nusantara yang elegan.</p>
-                            <p class="card-text mb-1"><strong>Alamat:</strong> Jl. Batik No. 10, Kota Malang</p>
-                            <p class="card-text mb-1">
-                                <strong>Rating:</strong>
-                                <span style="color: #FFD700;">
-                                    &#9733; &#9733; &#9733; &#9733; &#9734;
-                                </span>
-                                <small>(4/5)</small>
-                            </p>
-                                <p class="card-text mb-1">
-                                <strong>Website:</strong>
-                                <a href="https://batiksemar.co.id" target="_blank">batiksemar.co.id</a>
-                            </p>
-
+    
+                                <!-- Products Section -->
+                <section id="products" class="page-section">
+                    <div class="container">
+                        <!-- Judul Produk -->
+                        <h2 class="section-heading mb-4 text-center">
+                            <span class="section-heading-upper" style="font-size:2.2rem; color: #e6a756;">Produk UMKM Unggulan</span>
+                            <span class="section-heading-lower d-block mt-2" style="font-size:1.1rem; color: #555;">Temukan produk-produk terbaik dari pelaku UMKM lokal</span>
+                        </h2>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100">
+                                    <img src="{{ asset('design/assets/img/batik.jpg') }}" class="card-img-top" alt="Produk 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Batik Semar</h5>
+                                        <p class="card-text">Khas Nusantara yang elegan.</p>
+                                        <p class="card-text mb-1"><strong>Alamat:</strong> Jl. Batik No. 10, Kota Malang</p>
+                                        <p class="card-text mb-1">
+                                            <strong>Rating:</strong>
+                                            <span style="color: #FFD700;">
+                                                &#9733; &#9733; &#9733; &#9733; &#9734;
+                                            </span>
+                                            <small>(4/5)</small>
+                                        </p>
+                                        <p class="card-text mb-1">
+                                            <strong>Website:</strong>
+                                            <a href="https://batiksemar.co.id" target="_blank">batiksemar.co.id</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100">
+                                    <img src="{{ asset('design/assets/img/agro.jpg') }}" class="card-img-top" alt="Produk 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Agro Maju</h5>
+                                        <p class="card-text">Agro Maju adalah usaha agribisnis yang mendukung pertanian maju dengan solusi modern dan berkelanjutan.</p>
+                                        <p class="card-text mb-1"><strong>Alamat:</strong> Jl. Tani Makmur No. 5, Kota Batu</p>
+                                        <p class="card-text mb-1">
+                                            <strong>Rating:</strong>
+                                            <span style="color: #FFD700;">
+                                                &#9733; &#9733; &#9733; &#9733; &#9733;
+                                            </span>
+                                            <small>(5/5)</small>
+                                        </p>
+                                        <p class="card-text mb-1">
+                                            <strong>Website:</strong>
+                                            <a href="https://agromaju.id" target="_blank">agromaju.id</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100">
+                                    <img src="{{ asset('design/assets/img/kopi.jpg') }}" class="card-img-top" alt="Produk 3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Kopi Nusantara</h5>
+                                        <p class="card-text">Kopi robusta dan arabika pilihan dari petani lokal.</p>
+                                        <p class="card-text mb-1"><strong>Alamat:</strong> Jl. Kopi Raya No. 7, Kota Malang</p>
+                                        <p class="card-text mb-1">
+                                            <strong>Rating:</strong>
+                                            <span style="color: #FFD700;">
+                                                &#9733; &#9733; &#9733; &#9733; &#9733;
+                                            </span>
+                                            <small>(5/5)</small>
+                                        </p>
+                                        <p class="card-text mb-1">
+                                            <strong>Website:</strong>
+                                            <a href="https://kopinusantara.id" target="_blank">kopinusantara.id</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="{{ asset('design/assets/img/agro.jpg') }}" class="card-img-top" alt="Produk 2">
-                        <div class="card-body">
-                           <h5 class="card-title">Agro Maju</h5>
-                            <p class="card-text">Agro Maju adalah usaha agribisnis yang mendukung pertanian maju dengan solusi modern dan berkelanjutan.</p>
-                            <p class="card-text mb-1"><strong>Alamat:</strong> Jl. Tani Makmur No. 5, Kota Batu</p>
-                            <p class="card-text mb-1">
-                                <strong>Rating:</strong>
-                                <span style="color: #FFD700;">
-                                    &#9733; &#9733; &#9733; &#9733; &#9733;
-                                </span>
-                                <small>(5/5)</small>
-                            </p>
-                            <p class="card-text mb-1">
-                                <strong>Website:</strong>
-                                <a href="https://agromaju.id" target="_blank">agromaju.id</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="{{ asset('design/assets/img/kopi.jpg') }}" class="card-img-top" alt="Produk 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Kopi Nusantara</h5>
-                            <p class="card-text">Kopi robusta dan arabika pilihan dari petani lokal.</p>
-                            <p class="card-text mb-1"><strong>Alamat:</strong> Jl. Kopi Raya No. 7, Kota Malang</p>
-                            <p class="card-text mb-1">
-                                <strong>Rating:</strong>
-                                <span style="color: #FFD700;">
-                                    &#9733; &#9733; &#9733; &#9733; &#9733;
-                                </span>
-                                <small>(5/5)</small>
-                            </p>
-                            <p class="card-text mb-1">
-                                <strong>Website:</strong>
-                                <a href="https://kopinusantara.id" target="_blank">kopinusantara.id</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                </section>
 
     
 

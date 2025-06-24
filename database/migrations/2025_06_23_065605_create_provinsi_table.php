@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama', 45);
             $table->string('ibukota', 45);
-            $table->double('lotitude');
+            $table->double('latitude');
             $table->double('longtitude');
             $table->timestamps();
         });
