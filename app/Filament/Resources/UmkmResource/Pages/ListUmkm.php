@@ -6,7 +6,7 @@ use App\Filament\Resources\UmkmResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 
-class ListUmkms extends ListRecords
+class ListUmkm extends ListRecords
 {
     protected static string $resource = UmkmResource::class;
 

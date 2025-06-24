@@ -6,7 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Provinsi extends Model
 {
-    protected $fillable = ['nama', 'ibukota', 'lotitude', 'longtitude'];
+    protected $table = 'provinsi';
+    protected $fillable = ['nama', 'ibukota', 'latitude', 'longtitude'];
 
     public function kabkota()
     {

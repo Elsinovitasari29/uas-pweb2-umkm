@@ -17,13 +17,16 @@ class KategoriUmkmResource extends Resource
 {
     protected static ?string $model = KategoriUmkm::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-tag';
 
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
-                //
+                 Forms\Components\TextInput::make('nama')
+                ->label('Nama Kategori UMKM')
+                ->required()
+                ->maxLength(45),
             ]);
     }
 
@@ -31,12 +34,15 @@ class KategoriUmkmResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\TextColumn::make('id')->sortable(),
+                Tables\Columns\TextColumn::make('nama')->label('Nama Kabupaten/Kota')->searchable(),
             ])
             ->filters([
                 //
             ])
             ->actions([
+                Tables\Actions\ViewAction::make(),
+                Tables\Actions\DeleteAction::make(),
                 Tables\Actions\EditAction::make(),
             ])
             ->bulkActions([
