@@ -71,6 +71,7 @@ class UmkmResource extends Resource
     {
         return $table
             ->columns([
+                Tables\Columns\TextColumn::make('id'),
                 Tables\Columns\TextColumn::make('nama')->label('Nama UMKM')->searchable()->sortable(),
                 ImageColumn::make('foto'),
                 Tables\Columns\TextColumn::make('modal')->label('Modal')->sortable(),

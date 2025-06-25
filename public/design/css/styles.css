@@ -16,6 +16,11 @@
             margin: 0;
             scroll-padding-top: 80px; /* untuk offset navbar */
         }
+        .umkm-img {
+        width: 100%;
+        height: 220px;      /* Atur tinggi sesuai kebutuhan */
+        object-fit: cover;  /* Biar gambar tidak gepeng dan proporsional */
+    }
 
         section.page-section,
         section.page-section.clearfix,
